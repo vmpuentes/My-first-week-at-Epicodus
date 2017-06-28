@@ -1,0 +1,38 @@
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.sidebar {
+  text-align: center;
+  background: #943126;
+  color: #D0D3D4;
+  float: left;
+  font-style: italic;
+  font-size: 35px;
+
+}
+
+.sidebar li {
+  list-style-type: none;
+}
+
+.about img{
+  width: 25%;
+}
+
+.about {
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: 30;
+  background-color: #D7BDE2;
+}
+
+.tours h2{
+  font-size: 30px;
+}
+
+.column {
+  width: 30%;
+  float: left;
+}
