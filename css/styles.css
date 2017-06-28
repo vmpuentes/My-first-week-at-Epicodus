@@ -10,15 +10,24 @@ h1 {
   float: left;
   font-style: italic;
   font-size: 35px;
-
+  background: solid;
+  padding: 15px;
+  margin-right: 30px;
 }
-
 .sidebar li {
   list-style-type: none;
 }
-
+.about {
+  border: solid;
+  padding: 30px;
+  margin: 30px;
+  margin-left: 35%;
+}
 .about img{
-  width: 25%;
+  width: 50%;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .about {
@@ -30,8 +39,27 @@ h1 {
 
 .tours h2{
   font-size: 30px;
+  text-align: center;
+  font-style: italic;
+  color: purple;
+  border: solid;
+  background-color: #D4E6F1;
+  margin-bottom: 10px;
+  padding: 30px;
+  padding-bottom: 80px;
 }
 
+.tours img{
+  width: 30%;
+}
+
+.tours img:first-of-type {
+  margin-right: 80px;
+}
+
+.tours img:last-of-type {
+  margin-left: 80px;
+}
 .column {
   width: 30%;
   float: left;
